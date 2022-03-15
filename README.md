@@ -20,4 +20,4 @@ You may elect to complete not all of these parts, at your discretion.
 
 3. Write a new example that calculates the bilinear quadratic form `v^T*b*v` of an N-dimensional column vector v over a square symmetric N-dimensional matrix b. For definiteness, use vector `v[i] = i` and `b[i,j] = i+j`, for i,j = 0,...,N-1. As in the provided samples above, your code must calculate the quantity twice, once with SYCL and once without, and compare the result for correctness. Upload your code and a Makefile to compile the code. (Keeping in mind part 4 below, your code does not need to be optimal.)
 
-4. Analyze your implementation in part 3 in VTune. Identify any areas for improvement.
+4. Analyze your implementation in part 3 in VTune. Identify any areas for improvement. Using VTune screenshots, justify one to three areas of improvement that you would explore next.
